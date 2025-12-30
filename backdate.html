@@ -10,27 +10,57 @@
         <article>
             <section>
                 <div class="pw-post-title">
-                    <h1>Backdating your Medium posts!</h1>
+                    <h1>Journeying Toward AI-Assisted Documentation</h1>
+                    <h2>Design Lessons from the Healthcare Frontier</h2>
                 </div>
                 <p class="pw-post-body-paragraph">
-                    This is a test HTML page that you can import to Medium as 
-                    a template to backdate your post.
+                    Generative AI (GenAI) is often presented as a 'holy grail,' a silver bullet for productivity—but in the highly regulated, slow-moving world of healthcare, the journey is less a sprint to a perfect solution and more an incremental learning expedition. Our work at Included Health, applying LLM technology to combat excessive documentation, has offered critical insights for designers working with this unpredictable new material.
+The problem is clear: healthcare providers can spend up to two hours documenting for every one hour with a patient. We sought to increase efficiency, support standardization, and reduce burnout. Our AI-assisted documentation tool for care encounters quickly yielded impressive quantitative results: a 64% decrease in documentation time over six months, with 60% of notes being AI-only. A holy grail found? Not quite.
+
                 </p>
+                <h3>Designing with the Black Box</h3>
                 <p class="pw-post-body-paragraph">
-                    You'll know when you've successfully backdated your post
-                    by looking at the bottom of your article when you import
-                    to Medium: it should say something like: "Originally 
-                    published at *** on [Whatever your date is]."
+                    LLMs are probabilistic—a true "black box." This required us to adapt our design process:
+                    <ul>
+                        <li>Shrink the Scope: We narrowed our focus to problems where AI added value, like summarizing text-based verbal interactions, and started with the lowest-risk use case (chat encounters).</li>
+                        <li>Data-Focused Research: Research focused heavily on users' informational needs (templates, required exact details like medical codes) to better "manipulate" the black box. This informed prompt design, temperature settings, and LLM model choice.</li>
+                        <li>Prioritize Business Value: The user interface was streamlined to a single button, placing high emphasis on efficiency to ensure the project delivered measurable time and cost savings.</li>
+                        <li>Pilot for Insights: Traditional prototyping was futile. Instead, we released incremental, imperfect pilots to understand the actual impact on human behavior and workflow, establishing a tight feedback loop.</li>
+                    </ul>
                 </p>
+                 <h3>The Contradiction: Perception vs. Reality</h3>
                 <p class="pw-post-body-paragraph">
-                    If you enjoyed this tutorial and method, please 
-                    drop me a follow on 
-                    <a href="https://liaogg.medium.com">Medium</a>
-                    and 
-                    <a href="https://github.com/kevinMEH">Github.</a>
+                   Six months post-launch, a significant contradiction emerged: while our quantitative data showed consistent time savings and a stable rate of human editing, user sentiment shifted to frustration and a perception that the tool was error-prone and less useful.
+
+
+We believe this is rooted in cognitive biases and a mismatch in mental models:
                 </p>
+                <ul>
+                    <li>Novelty Effect Wore Off: Initial excitement faded, and inevitable, small errors became annoying and stood out as pain points.</li>
+                    <li>Frequency and Expectation Bias: Users began to perceive errors as occurring more frequently. Crucially, they expected the AI's performance to improve over time. Since our non-learning LLM did not change, this led to frustration.</li>
+                    <li>Augmentation, Not Automation: Users shifted from viewing the tool as a drafting augment to expecting full automation. This subtle change in mental model decreased their willingness to edit and correct, despite being trained to do so.</li>
+                </ul>
+                <h3>The Imperative for Human Touch</h3>
                 <p class="pw-post-body-paragraph">
-                    Thanks, and bye!
+                    The most significant miss was the operational change. We learned that employee performance was still heavily weighted on note "quality," a metric that had slightly declined post-AI-tool adoption. We introduced a new tool, but failed to anticipate that we had introduced a new way of working that clashed with the existing way of being evaluated.
+
+
+Our final takeaway is clear: AI is not a silver bullet; people are.
+
+
+Designers and researchers remain critical not only for shaping the content that goes into and out of the black box but also for navigating the human element. We must:
+
+                </p>
+                <ol>
+                    <li>Reinforce Expectations: Continuously educate users that the output is a "DRAFT" to prevent the shift to an automation mindset.
+</li>
+                    <li>Align with Operations: Collaborate with QA and training early on to ensure employee performance metrics and expectations align with an augmented workflow.</li>
+                    <li>Continue Qualitative Learning: Quantitative metrics can be deceiving. Real conversations are essential to uncover the cognitive and operational impacts that dictate long-term success.
+</li>
+                    
+                </ol>
+                <p>
+                    The world of AI is moving fast, but human needs and the complexities of regulated industries have not. The designer's superpower—curiosity, collaboration, and seeing the bigger picture—is what will ultimately lead to truly successful, impactful AI solutions.
                 </p>
             </section>
         </article>
